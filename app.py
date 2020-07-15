@@ -23,16 +23,16 @@ arrows = []
 
 pygame.mixer.init()
 # 3 - Load images
-player = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\dude.png")
-grass = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\grass.png")
-castle = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\castle.png")
-arrow = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\bullet.png")
-badguyimg1 = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\badguy.png")
+player = pygame.image.load(r"\resources\images\dude.png")
+grass = pygame.image.load(r"\resources\images\grass.png")
+castle = pygame.image.load(r"resources\images\castle.png")
+arrow = pygame.image.load(r"\resources\images\bullet.png")
+badguyimg1 = pygame.image.load(r"\resources\images\badguy.png")
 badguyimg = badguyimg1
-healthbar = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\healthbar.png")
-health = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\health.png")
-gameover = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\gameover.png")
-youwin = pygame.image.load(r"C:\Users\User\PycharmProjects\PyGameTut\resources\images\youwin.png")
+healthbar = pygame.image.load(r"\resources\images\healthbar.png")
+health = pygame.image.load(r"\resources\images\health.png")
+gameover = pygame.image.load(r"\resources\images\gameover.png")
+youwin = pygame.image.load(r"\resources\images\youwin.png")
 
 
 # 4 - keep looping through
